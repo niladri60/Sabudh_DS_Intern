@@ -18,7 +18,7 @@ def say_hello(name):
 greet = uppercase_decorator(say_hello)
 
 # Test the greet function
-print(greet("Alice"))  # Output should be in uppercase: "HELLO, ALICE!"
+print(greet("Niladri"))  # Output should be in uppercase: "HELLO, ALICE!"
 
 # Define the timing_decorator
 def timing_decorator(func):
@@ -35,7 +35,7 @@ def timing_decorator(func):
 timed_greet = timing_decorator(greet)
 
 # Test the timed_greet function
-print(timed_greet("Bob"))  # Output should show the time taken and the greeting in uppercase
+print(timed_greet("Nandy"))  # Output should show the time taken and the greeting in uppercase
 
 # Define the logging_decorator
 def logging_decorator(func):
