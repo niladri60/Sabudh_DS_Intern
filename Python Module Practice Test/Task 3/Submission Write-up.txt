@@ -1,0 +1,16 @@
+
+1. How does the try-except block handle the ZeroDivisionError?
+
+   The `try-except` block captures the `ZeroDivisionError` when the user attempts to divide by zero. Instead of the program crashing, it prints an error message to the user and continues execution gracefully. This allows for a better user experience and avoids abrupt program termination.
+
+2. What happens when the NegativeNumberError is raised?
+
+   When a negative number is detected, the custom `NegativeNumberError` is raised with a specific message. This exception is then caught by the corresponding `except` block, and the error message is printed to the user. This mechanism helps to enforce the rule of not allowing negative inputs.
+
+3. How does using custom exceptions improve the error handling in your program?
+
+   Custom exceptions, like `NegativeNumberError`, allow for more precise error handling by addressing specific issues beyond built-in exceptions. They help in providing clear, context-specific feedback to the user, making the program more robust and user-friendly. Custom exceptions also improve code readability and maintainability by clearly stating the type of error being handled.
+
+4. What did you learn about error and exception handling in Python from this assignment?
+
+   This assignment highlights the importance of handling errors and exceptions effectively in Python. It demonstrates how to use various exception handling constructs (`try`, `except`, `else`, `finally`) to manage different types of errors gracefully. Additionally, the assignment shows how to create and use custom exceptions, providing flexibility and control over the program’s error-handling logic. Through this exercise, I learned how structured error handling can improve the robustness and user experience of a Python program.
